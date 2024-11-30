@@ -10,14 +10,11 @@ body {
 
 .container {
   position: relative;
-  height: 100%;
   width: auto;
-  max-height: 100vh;
 }
 
 #iceberg-image {
-  max-height: 100%;
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
