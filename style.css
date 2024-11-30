@@ -1,9 +1,9 @@
 /* General reset */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* Default text color */
+  font-family: 'Andy Pro', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,16 +37,17 @@ body {
 .entry {
   position: absolute;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 5px 10px;
-  border-radius: 4px;
   font-size: 14px;
   text-decoration: none;
+  font-weight: bold;
   pointer-events: auto;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 
 .entry:hover {
-  background-color: rgba(255, 255, 255, 0.8);
   color: #000000;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
