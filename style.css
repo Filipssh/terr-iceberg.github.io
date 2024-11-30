@@ -1,4 +1,4 @@
-body {
+body, html {
   margin: 0;
   font-family: 'Andy Pro', sans-serif;
   background-color: #121212;
@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .container {
@@ -16,6 +17,9 @@ body {
 #iceberg-image {
   width: 100%;
   display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 
@@ -25,16 +29,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
 }
 
 .entry {
   position: absolute;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 2vw;
   text-decoration: none;
   font-weight: bold;
-  pointer-events: auto;
   text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
              1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
